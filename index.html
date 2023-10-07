@@ -8,17 +8,26 @@
 
    <body>
         <h1>导航栏</h1>
-        <ul>
-           <li><a href="website/网站书签.html">网站书签</a></li>
-           <li><a href="website/C语言示例.html">代码学习</a></li>
-           <li><a href="website/壁纸头像收集.html">壁纸收集</a></li>
-           <li><a href="website/一些恶趣味.html">一些恶趣味</a></li>
-         </ul>
-   <br />
-   <br />
-   <h1>自我介绍</h1>
-   <p>了解一下大家，不用紧张</p>
-   <form>
+        <nav>
+            <ul>
+               <li><a href="website/网站书签.html">网站书签</a></li>
+               <li class="dropdown">
+                  <a herf="#">代码学习</a>
+                  <div class="dropdown-content">
+                     <a href="#">编程软件下载链接</a>
+                     <a href="website/C语言示例.html">C语言示例</a>
+                  </div>
+               </li>
+               <li><a href="website/壁纸头像收集.html">壁纸收集</a></li>
+               <li><a href="website/一些恶趣味.html">一些恶趣味</a></li>
+             </ul>
+         </nav>
+            <br />
+            <br />
+         <section>
+            <h1>自我介绍</h1>
+            <p>了解一下大家，不用紧张</p>
+            <form>
       同行加wechat：<input type="text" value="" />
       <input type="submit" value="让我康康" />
       <input type="reset" value="重置" />
@@ -28,25 +37,27 @@
       <input type="submit" value="提交" />
       <input type="reset" value="重置" />
             仅供测试，勿填。
-   </form>
-   <form>
+            </form>
+            <form>
       地域：
-      宁波人   <input type="radio" value="Ningbo" checked="inchecked" />
+      宁波人   <input type="radio" value="Ningbo" />
       浙江人   <input type="radio" value="Zhejiang" />
       非浙江人 <input type="radio" value="Non" />
-   </form>
-   <select>
+      <input type="reset" value="重置" />         
+            </form>
+            <select>
       <option >原神，启动！</option>
       <option selected="selected">原神，卸载！</option>
-   </select>
-   <br />
-   <form>
+            </select>
+            <br />
+            <form>
       <p> 请输入内容：</p>
       <textarea rows="10" cols="100">想对我说的:</textarea>
       <br />
       <input type="submit" value="提交" />
       <input type="reset" value="重置" />
-   </form>
+            </form>
+   </section>
    <div id="container" align="center">
       <p>第一次做网站</p>
       <p>不知道能写啥</p>
@@ -63,5 +74,13 @@
          <td>救救我</td>
       </tr>
    </table>
+   <br />
+   <br />
+   <br />
+   <br />
+   <hr>
+   <footer>
+      <p>© 2023/10/07 Saturday.All rights reserved.</p>
+   </footer>
    </body>
 </html>   
