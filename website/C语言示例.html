@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+   <head>
+        <meta charset="UTF-8"/>
+        <title>my first website</title>
+   </head>
+
+   <body>
+        <p>For C++ learning</p>
+        <h1>Some code in C++</h1>   
+        <h2>Example One：计算积分</h2>
+        <pre>
+#include <iostream>
+#include <cmath>
+
+double f(double x) {
+    return x * x; // 这是一个示例函数，你可以替换成你需要的函数
+}
+
+double jifen(double a, double b, int n) {
+    double h = (b - a) / n;
+    double sum = 0.5 * (f(a) + f(b));
+
+    for (int i = 1; i < n; i++) {
+        double x = a + i * h;
+        sum += f(x);
+    }
+    return h * sum;
+}
+
+int main() {
+    double a, b;
+    int n;
+
+    std::cout << "请输入下限: ";
+    std::cin >> a;
+    std::cout << "下限: " << a << std::endl;
+
+    std::cout << "请输入上限: ";
+    std::cin >> b;
+    std::cout << "上限: " << b << std::endl;
+
+    std::cout << "请输入精度: ";
+    std::cin >> n;
+    std::cout << "精度: " << n << std::endl;
+
+    double result = jifen(a, b, n);
+    std::cout << "积分结果: " << result << std::endl;
+
+    return 0;
+}
+        </pre>
+        <hr />
+     <h2>Example Two：质数判断</h2>
+        <pre>
+#include <iostream>
+#include <cmath>
+
+bool is_prime(int n) {
+    if (n <= 1) {
+        return false;  // 1和小于1的数不是素数
+    }
+    if (n <= 3) {
+        return true;   // 2和3是素数
+    }
+    if (n % 2 == 0 || n % 3 == 0) {
+        return false;  // 能被2或3整除的数不是素数
+    }
+
+    for (int i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0) {
+            return false;  // 能被i或i+2整除的数不是素数
+        }
+    }
+
+    return true;
+}
+
+int main() {
+    int num;
+    std::cout << "请输入一个整数: ";
+    std::cin >> num;
+
+    if (is_prime(num)) {
+        std::cout << num << " 是素数" << std::endl;
+    } else {
+        std::cout << num << " 不是素数" << std::endl;
+    }
+
+    return 0;
+}
+        </pre>
+        <hr />
+     <h2>Example Three：圆周率逼近</h2>
+        <pre>
+#include <stdio.h>
+#include <iostream>
+
+int main(){
+     int n;
+     double pi=0.0;
+     
+     std::cout<<"Enter the number of terms to approximate pi:";
+     std::cin>>n;
+     
+     for(int i=0;i< n ; i++) {
+          double term=1.0/(2*i+1);
+          if (i%2==1){
+               pi-=term;
+          }else{
+               pi+=term;
+          }
+     }
+
+    pi*=4;
+
+    std::cout<<"approximated value of pi with"<< n <<"terms:"<< pi << std::endl;
+    
+    return 0;
+} 
+        </pre>
+   </body>
+</html>
