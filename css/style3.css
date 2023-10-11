@@ -1,0 +1,83 @@
+{
+    margin:0px;
+    padding:0;
+}
+body{
+	margin: 0;
+    padding: 0;
+	background-image:url('../images/background2.jpg');
+    background-size:cover;
+    background-repeat:no repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+@font-face{
+        font-family:'Walkway';
+        src:url('../fonts/Walkway_Black.ttf'),
+            url('../fonts/Walkway_Black.woff'),
+            url('../fonts/Walkway_Black.svg'),
+            url('../fonts/Walkway_Black.eot');
+}
+
+h1{
+    font-family: 'Walkway';
+    text-align: center;
+    color:#000;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'Walkway';
+    text-align: center;
+    color:#000;
+    font-size: 20px;
+}
+
+p{
+    text-align: left;
+}
+
+footer{
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.circle img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.container_wrapper {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.subcon {
+  width: 400px; 
+  height: 780px;
+  background-color:rgba(0,0,0,0);
+  font-size: 25px;
+  word-wrap: break-word;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 80px;
+}
+
+div.circle{
+  margin-left: 100px;
+}

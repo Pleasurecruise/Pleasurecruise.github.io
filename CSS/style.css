@@ -1,3 +1,7 @@
+{
+	margin:0px;
+	padding:0;
+}
 nav {
     background-color: #333;
     color: #fff;
@@ -47,13 +51,18 @@ body{
     background-repeat:no repeat;
     background-position:center;
 }
+body {
+  white-space: nowrap; 
+  overflow-x: auto; 
+}
+
 h1{
     font-size:50px;
-	color:gray;
+	color:white;
 	font-weight:bold;
  }
 
 p{
  	font-size:15px;
-	color:green;
+	color:white;
  }

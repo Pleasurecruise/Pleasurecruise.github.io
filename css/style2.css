@@ -1,0 +1,70 @@
+{
+	margin:0px;
+	padding:0;
+}
+body{
+	margin: 0;
+    padding: 0;
+	background-image:url('../images/background.jpg');
+    background-size:cover;
+    background-repeat:no repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+body {
+  white-space: nowrap;
+  overflow-x: auto; 
+}
+
+@font-face{
+    	font-family:'Oswald';
+    	src:url('../fonts/Oswald-LightItalic.ttf'),
+    	    url('../fonts/Oswald-LightItalic.woff'),
+    	    url('../fonts/Oswald-LightItalic.svg'),
+    	    url('../fonts/Oswald-LightItalic.eot');
+}
+
+h1{
+	font-family:'Oswald';
+	font-size:100px;
+    color:white;
+    text-align: center;
+	margin-top:250px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+  margin: 100px;
+  width: 250px;
+  height: 154.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family:'Oswald';
+  font-size:20px;
+}
+
+
+.button {
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer{
+	color:white;
+	text-align:center;
+}
