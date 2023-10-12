@@ -1,0 +1,27 @@
+name: deploy-website
+on: 
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: install nodejs
+      uses: actions/setup-node@v3.8.1
+      with: 
+        node-version: "14.X"
+    - name: install deps
+      run: npm install
+    - name: build app
+      run: npm run build
+    - name: copy dist file with scp
+      uses: appleboy/scp-action@v0.0.1
+      with: 
+        host:
+        username:
+        password:
+        port:
+        source:
+        target:
+        
