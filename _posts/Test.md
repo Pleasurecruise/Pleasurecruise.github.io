@@ -2,7 +2,6 @@
 title: Test
 author: Yiming Wang
 date: 2024-07-19
-category: 2024-07
 layout: post
 ---
 
