@@ -2,7 +2,7 @@
 title: Introduction
 author: Yiming Wang
 date: 2024-07-19
-category: Jekyll
+category: 2024-07
 layout: post
 ---
 
