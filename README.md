@@ -1,6 +1,6 @@
-Make Jelly site have a GitBook look!
+Welcome to My Github Repository!
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+Make Jelly site have a GitBook look!
 
 ## License
 
