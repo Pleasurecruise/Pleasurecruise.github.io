@@ -3,8 +3,9 @@ title:            Yiming's BLOG
 longtitle:        Yiming's Github Repository BLOG
 author:           Yiming Wang
 email:            3196812536@qq.com
+github_username:  Pleasurecruise
 description: >
-  Build Jekyll site with the GitBook style.
+  Make My Blog have a GitBook look!
 
 version:          1.0
 gitbook_version:  3.2.3

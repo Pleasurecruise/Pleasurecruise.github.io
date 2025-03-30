@@ -6,4 +6,9 @@ category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+You can get in touch me by below:
+
+- Email: 3196812536@qq.com (more often)
+- Email: pleasure@yiming1234.cn
+- QQ: 3196812536
+- Wechat: W3196812536

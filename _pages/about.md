@@ -6,4 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-This is an about page.
+Content Copyright is belong to Pleasurecruise.
+
+Blog theme Copyright is belong to Tao He.

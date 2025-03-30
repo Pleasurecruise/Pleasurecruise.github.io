@@ -1,6 +1,10 @@
-Welcome to My Github Repository!
+## Welcome to My Blog Repository!🤞
 
-Make Jelly site have a GitBook look!
+This blog is based on [this](https://github.com/sighingnow/jekyll-gitbook) theme
+
+The purpose is to record my technical difficulties
+
+Make My Blog have a GitBook look!
 
 ## License
 
