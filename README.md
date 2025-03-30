@@ -1,4 +1,4 @@
-## Welcome to My Blog Repository!🤞
+Welcome to My Blog Repository!🤞
 
 This blog is based on [this](https://github.com/sighingnow/jekyll-gitbook) theme
 
