@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 
-## ✨ About me
+✨ About me
 
 - 🌱 I’m currently learning Vue, SpringBoot, Machine Learning
 - 👯 I’m studying in University of Nottingham
@@ -19,7 +19,8 @@ layout: post
   - My Working Email: pleasure@yiming1234.cn
 - Junior year of undergraduate studies (September 2025). Any shortcomings are kindly overlooked.
 
-## Recent Activity
+💻 Recent Activity
 
-| <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a> |
-| ------------- | ------------- |
+<a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a>
+
+<a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a>
