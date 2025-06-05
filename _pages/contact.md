@@ -8,7 +8,7 @@ layout: post
 
 You can get in touch me by below:
 
-- Email: 3196812536@qq.com (more often)
-- Email: pleasure@yiming1234.cn
+- Personal Email: 3196812536@qq.com (more often)
+- Working Email: pleasure@yiming1234.cn
 - QQ: 3196812536
 - Wechat: W3196812536
