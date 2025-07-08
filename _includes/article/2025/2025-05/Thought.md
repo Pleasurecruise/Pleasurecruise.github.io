@@ -78,3 +78,9 @@ function App() {
 Context 是 React 提供的一种在组件树中共享数据的方式，无需通过 props 手动传递数据到每一个需要它的组件。
 
 在 React 应用中，数据通常是通过 props 自上而下（从父组件到子组件）传递的。但对于某些类型的属性（如地区偏好、UI 主题、用户认证信息等），这些属性需要在应用的许多组件之间共享，使用 props 传递会变得非常繁琐。Context 提供了一种在组件之间共享这些值的方式，而不必显式地通过组件树的每个层级传递 props。
+
+⑤ react complier
+
+ React19 引入的 React Complier 实现了自动化编码 避免了不必要的重复渲染 不再需要 useCallback useMemo 等依赖数组来进行内存管理
+
+相关文档：https://zh-hans.react.dev/learn/react-compiler
