@@ -4,7 +4,7 @@ Repo Url: https://github.com/MIC-DKFZ/nnUNet
 
 DeepWiki: https://deepwiki.com/MIC-DKFZ/nnUNet
 
-向U-Mamba nnWNet 等 UNet 变体 都用到了该框架
+向 U-Mamba nnWNet 等 UNet 变体 都用到了该框架
 
 - 编码器（Encoder）
 
